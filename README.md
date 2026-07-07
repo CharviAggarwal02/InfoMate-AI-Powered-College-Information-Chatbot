@@ -268,34 +268,11 @@ http://localhost:5000
 
 # 📸 Screenshots
 
-## 🏠 Home Page
-
-*(Add Screenshot)*
-
----
 
 ## 💬 Chat Interface
+<img width="1912" height="908" alt="image" src="https://github.com/user-attachments/assets/46da0a65-120d-4a4f-acc9-59538599ca62" />
+<img width="1917" height="911" alt="image" src="https://github.com/user-attachments/assets/b7309616-40ae-4c1b-b68c-9cb1ce755de0" />
 
-*(Add Screenshot)*
-
----
-
-## 📱 Responsive View
-
-*(Optional Screenshot)*
-
----
-
-# 🎥 Demo Video
-
-Add a short walkthrough video demonstrating:
-
-- Chat Interface
-- Student Queries
-- Response Generation
-- Features
-
----
 
 # 🚧 Challenges Solved
 
