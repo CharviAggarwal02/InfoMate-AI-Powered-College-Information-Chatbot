@@ -219,7 +219,6 @@ git clone https://github.com/CharviAggarwal02/chatbot-infomate.git
 
 cd chatbot-infomate
 ```
-
 ---
 
 ## Create Virtual Environment
