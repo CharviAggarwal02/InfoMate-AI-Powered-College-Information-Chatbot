@@ -1,69 +1,175 @@
-# 🎓 InfoMate - College Query Chatbot
+<div align="center">
 
-## 📖 Overview
+# 🎓 InfoMate – AI-Powered College Information Chatbot
 
-InfoMate is an AI-powered college query chatbot developed to help students access important college-related information quickly and efficiently. The chatbot provides instant responses to queries related to academics, departments, facilities, events, examinations, and other campus services.
+### Intelligent Student Support System Built with Python & FastAPI
 
-The primary goal of InfoMate is to bridge the communication gap between students and educational institutions by offering a centralized, intelligent, and user-friendly platform for information retrieval.
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi"/>
+<img src="https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5"/>
+<img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3"/>
+<img src="https://img.shields.io/badge-JavaScript-Interactive-F7DF1E?style=for-the-badge&logo=javascript"/>
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+</p>
 
----
-
-## 🚨 Problem Statement
-
-Students frequently encounter difficulties in obtaining accurate and timely information regarding courses, examinations, departmental activities, faculty details, and campus facilities. Traditional methods such as browsing multiple webpages, contacting administrative staff, or relying on static FAQ pages are often inefficient and time-consuming.
-
-There is a need for an intelligent system that can provide instant, reliable, and accessible information to students at any time. InfoMate addresses this challenge by delivering real-time responses to college-related queries through an interactive chatbot interface.
-
----
-
-## 💡 Novelty Statement
-
-InfoMate differs from conventional FAQ systems and generic chatbots by focusing specifically on college-related information. The chatbot provides a personalized and context-aware experience for students while ensuring quick access to institutional knowledge.
-
-### Key Innovations
-
-- Domain-specific chatbot designed exclusively for educational institutions.
-- Instant response generation for student queries.
-- User-friendly conversational interface.
-- Reduces dependency on administrative support staff.
-- Can be customized for different colleges and universities.
-- Available 24×7 for uninterrupted student assistance.
-- Scalable architecture for future AI and ERP integrations.
+### 📚 A conversational chatbot that provides instant answers to college-related queries, improving student support through an intuitive web interface.
 
 ---
 
-## ✨ Features
+### 🌐 Live Demo
 
-- 📚 Academic Information Assistance
-- 🏫 Department and Faculty Information
-- 📅 Event and Notice Updates
-- ❓ Frequently Asked Questions Support
-- 💬 Interactive Chat Interface
-- ⚡ Real-Time Response Generation
-- 🔍 Query-Based Information Retrieval
-- 🎯 Easy-to-Use User Interface
+**Application:** https://chatbot-infomate-3.onrender.com/
 
----
+**Portfolio:** https://charvi-portfolio-v2.vercel.app/
 
-## 🛠️ Technology Stack
+**GitHub:** https://github.com/CharviAggarwal02/chatbot-infomate
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Backend Development |
-| Flask/Django | Web Framework |
-| HTML5 | Frontend Structure |
-| CSS3 | Styling |
-| JavaScript | Client-Side Functionality |
-| SQLite/MySQL | Database Management |
-| NLP | Natural Language Processing |
+</div>
 
 ---
 
-## 📂 Project Structure
+# 📖 Overview
+
+InfoMate is an AI-powered college information chatbot designed to simplify communication between students and educational institutions.
+
+The application provides instant responses to frequently asked academic and campus-related questions through a modern conversational interface, helping students quickly access information without relying on manual administrative support.
+
+The project demonstrates backend API development, chatbot design, and responsive web application development using Python.
+
+---
+
+# ❗ Problem Statement
+
+Educational institutions receive a large number of repetitive student queries regarding admissions, academics, departments, examinations, events, and campus facilities.
+
+Traditional communication methods often require students to browse multiple webpages or contact administrative staff, resulting in delays and repetitive manual work.
+
+An intelligent self-service solution is required to provide students with fast, accurate, and accessible information at any time.
+
+---
+
+# 💡 Solution
+
+InfoMate provides a centralized conversational platform where students can ask questions in natural language and receive instant responses.
+
+The chatbot improves accessibility while reducing administrative workload through an interactive web-based interface and a modular backend architecture.
+
+---
+
+# ✨ Key Features
+
+## 🎓 Student Assistance
+
+- Academic Information
+- Department Information
+- Faculty Details
+- Campus Facilities
+- Examination Information
+- Events & Notices
+
+---
+
+## 💬 Chatbot Features
+
+- Interactive Chat Interface
+- Instant Query Responses
+- Natural Language-Based Interaction
+- Responsive User Interface
+- Conversation History
+- Error Handling
+
+---
+
+## ⚙ Backend Features
+
+- FastAPI REST Backend
+- Modular Architecture
+- JSON Knowledge Base
+- Lightweight Response Engine
+- Easy Future Integration
+
+---
+
+# 🏗 System Architecture
+
+```text
+                User
+
+                  │
+
+                  ▼
+
+     HTML • CSS • JavaScript Frontend
+
+                  │
+
+                  ▼
+
+          FastAPI Backend Server
+
+                  │
+
+                  ▼
+
+        Knowledge Base / JSON Data
+
+                  │
+
+                  ▼
+
+          Intelligent Response Engine
+```
+
+---
+
+# 🛠 Technology Stack
+
+## Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## Backend
+
+- Python
+- FastAPI
+- Uvicorn
+
+---
+
+## Data Storage
+
+- JSON Knowledge Base
+
+---
+
+## Deployment
+
+- Render
+
+---
+
+# 🚀 Project Highlights
+
+- ✅ College Information Chatbot
+- ✅ FastAPI Backend
+- ✅ REST APIs
+- ✅ Interactive Chat Interface
+- ✅ Responsive Design
+- ✅ Modular Code Structure
+- ✅ Easy Customization for Institutions
+
+---
+
+# 📂 Project Structure
 
 ```bash
 chatbot-infomate/
-│
+
 ├── static/
 │   ├── css/
 │   ├── js/
@@ -81,149 +187,210 @@ chatbot-infomate/
 
 ---
 
-## 🚀 Installation
+# 🔑 Core Functionalities
 
-### 1. Clone the Repository
+- Student Query Resolution
+- College Information Retrieval
+- Interactive Chat Experience
+- REST API Integration
+- Responsive Frontend
+- Fast Backend Processing
+
+---
+
+# 🌐 API Endpoints
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | `/` | Home Page |
+| POST | `/chat` | Process Student Query |
+| GET | `/health` *(Optional)* | Health Check |
+
+*(Update this table according to your actual endpoints.)*
+
+---
+
+# ⚙ Installation
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/CharviAggarwal02/chatbot-infomate.git
-```
 
-### 2. Navigate to Project Directory
-
-```bash
 cd chatbot-infomate
 ```
 
-### 3. Create Virtual Environment
+---
+
+## Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-### 4. Activate Virtual Environment
-
-#### Windows
+### Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-#### Linux / Mac
+### Linux / macOS
 
 ```bash
 source venv/bin/activate
 ```
 
-### 5. Install Dependencies
+---
+
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 6. Run the Application
+---
+
+## Run Application
 
 ```bash
 python app.py
 ```
 
----
+Open your browser and visit:
 
-## 📌 Usage
-
-1. Start the application.
-2. Open the chatbot interface in your browser.
-3. Enter your college-related query.
-4. Receive instant responses from InfoMate.
-
----
-
-## 🎯 Objectives
-
-- Provide instant access to college-related information.
-- Improve communication between students and institutions.
-- Reduce manual workload on administrative staff.
-- Enhance student experience through conversational AI.
-- Offer a centralized platform for query resolution.
-
----
-
-## 🔮 Future Enhancements
-
-- 🎙️ Voice-Based Interaction
-- 🌍 Multilingual Support
-- 📱 Mobile Application Development
-- 🤖 Advanced AI-Powered Recommendations
-- 🔐 Student Login & Authentication
-- 🏢 College ERP Integration
-- 📊 Analytics Dashboard
-
----
-
-## 📸 Screenshots
-
-### Home Page
-
-Add your project screenshots here.
-
-```markdown
-![Home Page](screenshots/homepage.png)
+```
+http://localhost:5000
 ```
 
-### Chat Interface
-
-```markdown
-![Chat Interface](screenshots/chat-interface.png)
-```
+*(Update the port if different.)*
 
 ---
 
-## 👩‍💻 Developer
+# 📸 Screenshots
 
-**Charvi Aggarwal**
+## 🏠 Home Page
 
-- GitHub: https://github.com/CharviAggarwal02
-- LinkedIn: https://www.linkedin.com/in/charvi-aggarwal03/
+*(Add Screenshot)*
 
 ---
 
-## 🤝 Contributing
+## 💬 Chat Interface
 
-Contributions, suggestions, and feature requests are welcome.
+*(Add Screenshot)*
 
-1. Fork the repository.
-2. Create a new branch.
+---
+
+## 📱 Responsive View
+
+*(Optional Screenshot)*
+
+---
+
+# 🎥 Demo Video
+
+Add a short walkthrough video demonstrating:
+
+- Chat Interface
+- Student Queries
+- Response Generation
+- Features
+
+---
+
+# 🚧 Challenges Solved
+
+During development the following engineering challenges were addressed:
+
+- Designing a modular chatbot architecture
+- Building REST APIs using FastAPI
+- Managing conversational flow
+- Creating a responsive user interface
+- Organizing reusable backend components
+
+---
+
+# 📈 Business Value
+
+InfoMate demonstrates how conversational AI can improve communication within educational institutions by:
+
+- Reducing repetitive student queries
+- Improving accessibility of campus information
+- Providing 24×7 student assistance
+- Enhancing user experience through conversational interfaces
+
+---
+
+# 🔮 Future Enhancements
+
+- Voice Assistant
+- OpenAI / LLM Integration
+- Retrieval-Augmented Generation (RAG)
+- Student Authentication
+- ERP Integration
+- Database Migration
+- Multilingual Support
+- Analytics Dashboard
+- Mobile Application
+
+---
+
+# 👩‍💻 Developer
+
+## Charvi Aggarwal
+
+**Software Engineer | Python Backend Developer | AI Integration Specialist**
+
+🌐 Portfolio
+
+https://charvi-portfolio-v2.vercel.app/
+
+💼 LinkedIn
+
+https://www.linkedin.com/in/charvi-aggarwal03/
+
+💻 GitHub
+
+https://github.com/CharviAggarwal02
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create your feature branch
 
 ```bash
 git checkout -b feature-name
 ```
 
-3. Commit your changes.
+3. Commit your changes
 
 ```bash
 git commit -m "Added new feature"
 ```
 
-4. Push to your branch.
+4. Push to the branch
 
 ```bash
 git push origin feature-name
 ```
 
-5. Open a Pull Request.
+5. Open a Pull Request
 
 ---
 
-## ⭐ Support
+# 📄 License
 
-If you found this project useful, please consider giving it a **Star ⭐** on GitHub.
-
-Repository Link:
-
-https://github.com/CharviAggarwal02/chatbot-infomate
+This project is released for educational and portfolio purposes.
 
 ---
 
-## 📄 License
+<div align="center">
 
-This project is developed for educational and academic purposes.
+### ⭐ If you found this project useful, consider giving it a Star!
+
+**Open to Freelance Opportunities • Python • FastAPI • AI Solutions**
+
+</div>
